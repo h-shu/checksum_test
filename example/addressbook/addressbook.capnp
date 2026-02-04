@@ -39,4 +39,7 @@ struct MyData {
   c @2 :Float32;
   d @3 :Float32;
   e @4 :Bool;
+  f @5 :Text;
+  g @6 :Text;
+  h @7 :Text;
 }

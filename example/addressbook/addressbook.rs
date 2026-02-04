@@ -16,6 +16,9 @@ pub mod addressbook {
         my_data.set_c(123.321);
         my_data.set_d(123.123);
         my_data.set_e(true);
+        my_data.set_f("abc");
+        my_data.set_g("def");
+        my_data.set_h("ghi");
 
         let mut buffer = Vec::new();
         serialize::write_message(&mut buffer, &message);

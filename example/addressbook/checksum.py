@@ -13,6 +13,9 @@ my_data.b = 128
 my_data.c = 123.321
 my_data.d = 123.123
 my_data.e = True
+my_data.f = "abc"
+my_data.g = "def"
+my_data.h = "ghi"
 
 # 3. Serialize the struct to bytes
     # 'to_bytes_packed' is efficient for storage/transmission
