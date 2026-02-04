@@ -1,0 +1,11 @@
+coverage:
+  status:
+    project:
+      default:
+        threshold: 5% # don't annoy folks with false positives
+    patch:
+      default:
+        informational: true
+ignore:
+  - "benchmark"
+  - "example"

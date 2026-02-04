@@ -1,0 +1,24 @@
+[package]
+
+name = "addressbook"
+version = "0.0.0"
+authors = [ "David Renshaw <dwrenshaw@gmail.com>"  ]
+edition = "2018"
+build = "build.rs"
+
+[[bin]]
+
+name = "addressbook"
+path = "addressbook.rs"
+
+[dependencies]
+crc32c = "0.6"
+
+[build-dependencies.capnpc]
+path = "../../capnpc"
+
+[dependencies.capnp]
+path = "../../capnp"
+
+[lints]
+workspace = true
